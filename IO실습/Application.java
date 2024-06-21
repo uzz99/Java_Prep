@@ -1,6 +1,7 @@
 package com.beyond.lambda;
 
-import com.beyond.lambda.practice.G_Predicate;
+import com.beyond.lambda.practice.A_lambda;
+import com.beyond.lambda.practice.B_Functional;
 
 public class Application {
 	/*
@@ -30,12 +31,6 @@ public class Application {
 	 * 		  이러한 인터페이스를 함수적 인터페이스라고 함
 	 * 		- 함수적 인터페이스를 선언할 때 @FunctionalInterface 어노테이션을 붙이면
 	 * 		  두 개 이상의 추상 메소드가 선언되지 않도록 컴파일러가 체크해 준다.
-	 * 
-	 *	표준 함수적 인터페이스
-	 *		- 자바 8부터 빈번하게 사용되는 함수적 인터페이스는 java.util.function 패키지의 표준 API 패키지로 제공된디
-	 *		- 자바 8부터 추가되거나 변경된 API는 이 표준 함수적 인터페이스들을 매개 타입으로 많이 사용
-	 *		- 표준 함수적 인터페이스는 용도에 따라 Consumer(소비), Supplier(공급), Function(연산), Operator(연산), Predicate로 구분된다.
-	 *
 	 */
 
 	public static void main(String[] args) {
@@ -43,11 +38,8 @@ public class Application {
 //		new B_Functional().method1();
 //		new B_Functional().method2();
 //		new B_Functional().method3();
-//		new B_Functional().method4(400);
-//		new C_Consumer().method1();
-//		new E_Function().method1();
-//		new F_Operator().method1();
-		new G_Predicate().method1();
-		}
+		new B_Functional().method4(400);
+		
+	}
 
 }
