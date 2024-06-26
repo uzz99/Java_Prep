@@ -1,8 +1,6 @@
 package com.beyond.stream;
 
-import com.beyond.stream.practice.A_Create;
-import com.beyond.stream.practice.B_Filtering;
-import com.beyond.stream.practice.C_Sorted;
+import com.beyond.stream.practice.E_Looping;
 
 public class Application {
 	
@@ -36,8 +34,13 @@ public class Application {
 		
 		// 정렬
 //		new C_Sorted().method1();
-		new C_Sorted().method2();
+//		new C_Sorted().method2();
 		
+//		new D_Mapping().method1();
+//		new D_Mapping().method2();
+		
+		new E_Looping().method1();
+
 	}
 
 }
