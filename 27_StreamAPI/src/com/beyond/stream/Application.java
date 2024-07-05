@@ -1,6 +1,7 @@
 package com.beyond.stream;
 
-import com.beyond.stream.practice.E_Looping;
+import com.beyond.stream.practice.G_Aggreagate;
+import com.beyond.stream.practice.H_Collect;
 
 public class Application {
 	
@@ -39,7 +40,14 @@ public class Application {
 //		new D_Mapping().method1();
 //		new D_Mapping().method2();
 		
-		new E_Looping().method1();
+//		new E_Looping().method1();
+		
+//		new F_Match().method1();
+//		new F_Match().method2();
+		
+//		new G_Aggreagate().method1();
+		
+		new H_Collect().method1();
 
 	}
 
